@@ -27,7 +27,7 @@ modules:
       - cargo --offline build --release --verbose
       - install -Dm755 target/release/neos_peeps /app/bin/neos_peeps
       - cp *.md /app/
-      - install -Dm644 static/xyz.ljoonal.neospeeps.appdata.xml /app/share/metainfo/xyz.ljoonal.neospeeps.metainfo.xml
+      - install -Dm644 static/xyz.ljoonal.neospeeps.metainfo.xml /app/share/metainfo/xyz.ljoonal.neospeeps.metainfo.xml
       - install -Dm644 static/logo-0512.png /app/share/icons/hicolor/512x512/apps/xyz.ljoonal.neospeeps.png
       - install -Dm644 static/logo-0128.png /app/share/icons/hicolor/128x128/apps/xyz.ljoonal.neospeeps.png
       - install -Dm644 static/logo-0064.png /app/share/icons/hicolor/64x64/apps/xyz.ljoonal.neospeeps.png
@@ -35,6 +35,6 @@ modules:
     sources:
       - type: git
         url: https://git.ljoonal.xyz/ljoonal/NeosPeeps.git
-        tag: v0.4.3
-        commit: e2da3251044a6bcd27734e4cb12f45eff82c1c43
+        tag: v0.4.4
+        commit: 1724f086f8e1093410b7da04382d4442ffb03b2e
       - generated-sources.json
