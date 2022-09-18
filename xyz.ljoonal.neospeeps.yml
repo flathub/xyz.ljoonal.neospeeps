@@ -35,6 +35,6 @@ modules:
     sources:
       - type: git
         url: https://git.ljoonal.xyz/ljoonal/NeosPeeps.git
-        tag: v0.4.4
-        commit: 1724f086f8e1093410b7da04382d4442ffb03b2e
+        tag: v0.4.5
+        commit: a047cb036c14898be4c5665b94339b67e557f676
       - generated-sources.json
