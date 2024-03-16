@@ -1,3 +1,4 @@
 {
-	"publish-delay-hours": 3
+	"publish-delay-hours": 3,
+	"end-of-life": "No longer maintained due to a shift to Resonite from Neos, which has a slightly incompatible API."
 }
